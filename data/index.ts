@@ -1,7 +1,9 @@
+import { title } from "process";
+
 export const navItems = [
   { name: "About", link: "#about" },
-  // { name: "Projects", link: "#projects" },
-  // { name: "Testimonials", link: "#testimonials" },
+  { name: "Projects", link: "#projects" },
+  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -170,7 +172,15 @@ export const companies = [
   },
 ];
 
-export const workExperience = [{}];
+export const workExperience = [
+  {
+    id: 1,
+    title: "Frontend Developer",
+    desc: "Developed and maintained the company's website using React, Tailwind CSS, and TypeScript.",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    thumbnail: "/b1.svg",
+  },
+];
 
 export const socialMedia = [
   {

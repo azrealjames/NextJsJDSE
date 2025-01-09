@@ -1,7 +1,6 @@
 import React from "react";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
 import { companies, testimonials } from "@/data";
-import { div } from "three/webgpu";
 
 const Clients = () => {
   return (
